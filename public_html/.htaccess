@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^login$ index.php?DIR=login.php&CERTIFY_CODE=e5933514ba109163126165514ff3d72f [L]
+RewriteRule ^profile$ index.php?DIR=panel.php&CERTIFY_CODE=e5933514ba109163126165514ff3d72f [QSA]
+RewriteRule ^register$ index.php?DIR=register.php&CERTIFY_CODE=e5933514ba109163126165514ff3d72f [L]
+RewriteRule ^admin index.php?DIR=panel.php&CERTIFY_CODE=e5933514ba109163126165514ff3d72f [L]
+RewriteRule ^logout index.php?DIR=panel.php&CERTIFY_CODE=e5933514ba109163126165514ff3d72f&logout [L]
+
+
+
+
